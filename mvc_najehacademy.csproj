@@ -158,6 +158,7 @@
     <Compile Include="Controllers\StudentController.cs" />
     <Compile Include="Controllers\TestGitController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\VirtuaMachineController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -221,6 +222,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Images\" />
+    <Folder Include="Views\VirtuaMachine\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202012060854077_InitialCreate.resx">
