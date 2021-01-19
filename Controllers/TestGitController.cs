@@ -11,7 +11,9 @@ namespace mvc_najehacademy.Controllers
         // GET: TestGit
         public ActionResult Index()
         {
+            ViewBag.MyName = "Ammar";
             return View();
         }
+       
     }
 }
